@@ -4,8 +4,8 @@ import requests
 
 app = FastAPI()
 
-AI_API_KEY = "YOUR_API_KEY"  # Replace
-AI_URL = "https://api.openai.com/v1/chat/completions"
+AI_API_KEY = "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"  # Replace
+AI_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 class Mystery(BaseModel):
     text: str
